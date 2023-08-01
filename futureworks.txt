@@ -1,0 +1,5 @@
+1.<!-- abhi local storage isme implement nhi hai
+     isliye page refresh hone par to do list refresh ho jayegi -->
+
+2. agar list items jaydda ho rahe hai toh vo box ke bahar chale ja rahe hai
+    isko set karna hai ki vo list  ke andar ho wrap ho jaye

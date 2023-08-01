@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Merriweather&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#heading{
+    color: white;
+    background-color: royalblue;
+}
+#heading1{
+    text-align:center;
+    font-size: 35px;
+    color: #090210;
+}
+.main{
+    height: 99vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: #33cfb0;
+    border: 2px solid black;
+    border-radius: 10px ;
+    padding: 10px;
+}
+#item{
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+    display: block;
+    /* border: 0; */
+    /* outline: 0; */
+}
+#todolist{
+    list-style: none;
+    padding-top: 10px;
+}
+/* img{
+    padding: 10px;
+} */
+#todolist li{
+    padding-top: 15px;
+    font-size: 20px;
+    position: relative;
+    background-color: #E0C3FC;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    user-select: none;
+}
+#todolist li img{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    
+}
+
+.done{
+    text-decoration: line-through;
+    color:black  !important;
+    background-color: grey !important;
+}
